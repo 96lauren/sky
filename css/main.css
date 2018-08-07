@@ -18,6 +18,9 @@
  	line-height: 180px;
 
  }
+ sup{
+ 	font-size: 5px;
+ }
 header::last-letter{
 	font-size: 10px;
 }

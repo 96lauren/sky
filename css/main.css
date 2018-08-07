@@ -7,8 +7,8 @@
  }
 
  header{
- 	background-color: #85c76f;
-
+ 	background-color: #a2cf5d;
+ 	background: -webkit-linear-gradient(top left,#38b4a0,#38b4a0,#38b4a0,#84c76f,#84c76f,#80c670,#80c670,#80c670);
  	height: 200px;
  	width:100%;
  	color:#fff;
@@ -18,6 +18,10 @@
  	line-height: 180px;
 
  }
+header::last-letter{
+	font-size: 10px;
+}
+
  .content{
  	margin-top: 70px;
  	padding: 10px;
@@ -41,7 +45,7 @@
  .fa-facebook{
  	color:#fff;
  	font-size: 20px;
- 	margin-left: 30px;
+ 	margin-left: 50px;
  	width: 20px;
  	height:20px;
     border:2px solid #fff;
@@ -58,7 +62,7 @@
 .fa-twitter{
  	color:#fff;
  	font-size: 20px;
- 	margin-left: 30px;
+ 	margin-left: 50px;
  	width: 20px;
  	height:20px;
 	border:2px solid #fff;
@@ -74,7 +78,7 @@
  .fa-instagram{
  	color:#fff;
  	font-size: 20px;
- 	margin-left: 30px;
+ 	margin-left: 50px;
  	width: 20px;
  	height:20px;
 	border:2px solid #fff;
@@ -92,7 +96,7 @@
  .fa-link{
  	color:#fff;
  	font-size: 20px;
- 	margin-left: 30px;
+ 	margin-left: 50px;
  	width: 20px;
  	height:20px;
 	border:2px solid #fff;
